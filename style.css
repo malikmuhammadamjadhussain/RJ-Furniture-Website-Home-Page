@@ -1,0 +1,414 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(238, 238, 238);
+    border: border-box;
+}
+.upper-panel{
+    width: 100%;
+    height: 25px;
+    padding-top: 4px;
+    padding-left: 3px;
+    background-color: #545454;
+    text-align: center;
+    color: #f7f6f4;
+    font-weight: 600;
+    font-size: small ;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin-top: 10px;
+    
+    }
+.logo{
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 50px;
+    background-size: cover;
+}
+.navsearch{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    inline-size: auto;
+    display: flex;
+}
+.searchbar{
+    width: 600px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border-top-right-radius: 0% ;
+    border-bottom-right-radius: 0%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid rgb(0, 0, 0)
+}
+.button-search{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 48px;
+}
+.button{
+    width: auto;
+    height: auto;
+    margin-left: 0%;
+    padding-left: 0%;
+    border-radius: 5px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+.but-sec{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 20%;
+    top : 68%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    height: 40px ;
+    width: 130px;
+    background: transparent;
+    border: 1px solid white;
+}
+.button-sec{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 20%;
+    top : 88%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    height: 40px ;
+    width: 150px;
+    background: transparent;
+    border: 1px solid white;
+}
+p{
+    margin-right: 3%;
+}
+.panel{
+    display: flex;
+    margin-left: 8%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.color-it{
+    color: #D95858;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+.container .text{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 24%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+
+}
+.sec{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 68%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.sec{
+    height: 0%;
+}
+.text{
+    height: 0px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.panel .border:hover{
+    border: 2px solid white;
+}
+.button-sec{
+    width: 40px;
+    height: auto;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+
+}
+but-sec{
+    background-color: black;
+    width: 40px ;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-size: 43px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/**Shop Seaction**/
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+}
+.furniture{
+    border: 2px solid black;
+    height: 320px;
+    width: 23%;
+    background-color: rgb(230, 228, 228);
+}
+.box1 .text{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 24%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+
+    background-image: url(https://www.rjliving.com.au/cdn/shop/files/sideboard_3111e65f-1731-43c5-9e9e-b998301ced02_300x.webp?v=1717374330);
+    height: 320px ;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+height: 0%;
+}
+.Shop{
+    height: 0%;
+    color: #f7f6f4;
+}
+.container1{
+    position: relative;
+    width: 23%;
+    height: 320px; 
+}
+.container1 .text1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-family: Montserrat;
+
+}
+.container2{
+    position: relative;
+    width: 23%;
+    height: 320px; 
+}
+.container2 .text2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-family: Montserrat;
+    height: 0%;
+}
+.container3{
+    position: relative;
+    width: 23%;
+    height: 320px; 
+}
+.container3 .text3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-family: Montserrat;
+    height: 0%;
+    text-align: center;
+    display: flex;
+}
+.container4{
+    position: relative;
+    width: 23%;
+    height: 320px; 
+}
+.container4 .text4{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-family: Montserrat;
+    height: 0%;
+    text-align: center;
+    display: flex;
+}
+.container5{
+    position: relative;
+    width: 23%;
+    height: 320px; 
+    border: 2px solid black;
+}
+.container5 .text5{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-family: Montserrat;
+    height: 0%;
+    text-align: center;
+    display: flex;
+}
+.container6{
+    position: relative;
+    width: 23%;
+    height: 320px; 
+    border: 2px solid black;
+}
+.container6 .text6{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-family: Montserrat;
+    height: 0%;
+    text-align: center;
+    display: flex;
+}.container7{
+    position: relative;
+    width: 23%;
+    height: 320px; 
+    border: 2px solid black;
+}
+.container7 .text7{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-family: Montserrat;
+    height: 0%;
+    text-align: center;
+    display: flex;
+}.container8{
+    position: relative;
+    width: 23%;
+    height: 320px; 
+    border: 2px solid black;
+}
+.container8 .text8{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    font-family: Montserrat;
+    height: 0%;
+    text-align: center;
+    display: flex;
+}
+.shop-sec2{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+.explore{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.back-img2{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-size: cover;
+}
+.text-backimg{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 20%;
+    top : 65%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    height: 0px ;
+    font-weight: 500;
+}
+.text-backimg2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 20%;
+    top : 78%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 0px ;
+    margin-left: 1%;
+}
+.explore-button{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 20%;
+    top : 88%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    height: 40px ;
+    background: transparent;
+    border: 1px solid white;
+}
+.explore .text-backimg .text-backimg2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    left: 50%;
+    top : 24%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+a{
+    height: 0%;
+    background: transparent;
+    color: white;
+
+}
+.heading2{
+    margin-top: 40px;
+    font-size: large;
+    height: 50px;
+    width: auto;
+}
